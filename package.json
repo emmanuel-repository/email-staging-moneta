@@ -1,14 +1,14 @@
 {
   "name": "email-backend",
   "version": "1.0.0",
-  "description": "Backend para envío de correos desde formulario de contacto",
-  "main": "api/server.js",
+  "description": "Backend para envío de correos desde formulario de contacto - GPO Magno",
+  "main": "api/send-email.js",
   "type": "module",
   "scripts": {
-    "dev": "node api/server.js",
-    "start": "node api/server.js",
+    "dev": "node server.js",
+    "start": "node server.js",
     "vercel-dev": "vercel dev",
-    "build": "vercel build",
+    "build": "echo 'Build completed'",
     "deploy": "vercel --prod"
   },
   "dependencies": {
@@ -19,5 +19,12 @@
   },
   "engines": {
     "node": ">=18.x"
-  }
+  },
+  "keywords": [
+    "email",
+    "backend",
+    "vercel",
+    "serverless",
+    "gpo-magno"
+  ]
 }
